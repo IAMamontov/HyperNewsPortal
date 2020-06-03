@@ -1,0 +1,14 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    template = """
+    <html>
+      <h2> </h2>
+    </html>
+    """
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6399
+status: Solved
+record: -1

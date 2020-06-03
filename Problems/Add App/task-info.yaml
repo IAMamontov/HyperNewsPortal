@@ -1,0 +1,12 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    INSTALLED_APPS = [
+        "movies",
+    ]
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6660
+status: Solved
+record: -1

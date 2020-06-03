@@ -1,0 +1,24 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    from django.urls import path
+    from django.views import View
+
+
+    class CatView(View):
+        pass
+
+
+    class DogView(View):
+        pass
+
+
+    urlpatterns = [
+
+    ]
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6480
+status: Solved
+record: -1

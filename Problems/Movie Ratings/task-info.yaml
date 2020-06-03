@@ -1,0 +1,22 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    from django.http import HttpResponse, Http404
+    from django.views import View
+
+    CINEMA_RATINGS = {
+        "The Dark Knight": 8.2,
+        "The Shawshank Redemption": 8.3,
+        "Pulp Fiction": 8.1,
+    }
+
+
+    class CinemaRatingView(View):
+        def get(self, request, film, *args, **kwargs):
+            ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6479
+status: Solved
+record: -1

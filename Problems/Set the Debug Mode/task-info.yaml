@@ -1,0 +1,11 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    IS_RELEASE_SERVER = ...
+    DEBUG = ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6659
+status: Solved
+record: -1

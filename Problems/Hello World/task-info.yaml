@@ -1,0 +1,16 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    from django.http import HttpResponse
+    from django.views import View
+
+
+    class HelloWorldView(View):
+        def get(self, request, *args, **kwargs):
+            ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6478
+status: Solved
+record: -1
